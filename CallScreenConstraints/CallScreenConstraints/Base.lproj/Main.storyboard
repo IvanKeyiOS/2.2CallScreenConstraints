@@ -1,24 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CallScreenConstraints" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDg-eI-nGH">
+                                <rect key="frame" x="132" y="39.5" width="111.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8X-at-CjU">
+                                <rect key="frame" x="29.5" y="404" width="116" height="59"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" imagePlacement="top" subtitle="Remaind Me" imagePadding="10">
+                                    <imageReference key="image" image="alarm.fill" catalog="system" variableValue="0.0"/>
+                                    <fontDescription key="subtitleFontDescription" type="system" weight="medium" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PnR-3J-zFF">
+                                <rect key="frame" x="242" y="404" width="91" height="59"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" imagePlacement="top" subtitle="Message" imagePadding="10">
+                                    <imageReference key="image" image="message.fill" catalog="system" variableValue="0.0"/>
+                                    <fontDescription key="subtitleFontDescription" type="system" weight="medium" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yiz-5w-opj">
+                                <rect key="frame" x="247.5" y="513" width="80" height="108"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JtG-zE-rTY">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="VpW-oZ-KsN"/>
+                                            <constraint firstAttribute="width" constant="80" id="uct-I9-ALS"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <imageReference key="image" image="phone.fill" catalog="system" symbolScale="large"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="40"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accept" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGe-v1-PF3">
+                                        <rect key="frame" x="13" y="87" width="54" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="xGe-v1-PF3" firstAttribute="top" secondItem="JtG-zE-rTY" secondAttribute="bottom" constant="7" id="StA-Ts-lHu"/>
+                                    <constraint firstItem="JtG-zE-rTY" firstAttribute="leading" secondItem="Yiz-5w-opj" secondAttribute="leading" id="YQI-r3-Inf"/>
+                                    <constraint firstAttribute="bottom" secondItem="xGe-v1-PF3" secondAttribute="bottom" id="gHI-Qp-uvn"/>
+                                    <constraint firstAttribute="trailing" secondItem="JtG-zE-rTY" secondAttribute="trailing" id="h49-0f-aPM"/>
+                                    <constraint firstItem="xGe-v1-PF3" firstAttribute="centerX" secondItem="JtG-zE-rTY" secondAttribute="centerX" id="iTV-dm-iGR"/>
+                                    <constraint firstItem="JtG-zE-rTY" firstAttribute="top" secondItem="Yiz-5w-opj" secondAttribute="top" id="jAU-va-si1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xi-4J-1mL">
+                                <rect key="frame" x="47.5" y="513" width="80" height="108"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="It9-ff-oIw">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="a9x-US-XQU"/>
+                                            <constraint firstAttribute="width" constant="80" id="eDO-x0-JPs"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <imageReference key="image" image="phone.down.fill" catalog="system" symbolScale="large"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="40"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ux-HX-Dy5">
+                                        <rect key="frame" x="11.5" y="87" width="57" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="It9-ff-oIw" firstAttribute="leading" secondItem="2xi-4J-1mL" secondAttribute="leading" id="DD5-Ms-kso"/>
+                                    <constraint firstAttribute="bottom" secondItem="9ux-HX-Dy5" secondAttribute="bottom" id="JF5-Og-Hp6"/>
+                                    <constraint firstItem="9ux-HX-Dy5" firstAttribute="centerX" secondItem="It9-ff-oIw" secondAttribute="centerX" id="PVt-pe-6U5"/>
+                                    <constraint firstItem="9ux-HX-Dy5" firstAttribute="top" secondItem="It9-ff-oIw" secondAttribute="bottom" constant="7" id="Z09-pV-Rnj"/>
+                                    <constraint firstItem="It9-ff-oIw" firstAttribute="top" secondItem="2xi-4J-1mL" secondAttribute="top" id="jlk-c7-OVw"/>
+                                    <constraint firstAttribute="trailing" secondItem="It9-ff-oIw" secondAttribute="trailing" id="uQq-YD-eex"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2xi-4J-1mL" firstAttribute="top" secondItem="L8X-at-CjU" secondAttribute="bottom" constant="50" id="7Se-xh-962"/>
+                            <constraint firstItem="Yiz-5w-opj" firstAttribute="centerX" secondItem="PnR-3J-zFF" secondAttribute="centerX" id="8MV-vp-sGy"/>
+                            <constraint firstItem="L8X-at-CjU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="F3w-mA-eM5"/>
+                            <constraint firstItem="2xi-4J-1mL" firstAttribute="centerX" secondItem="L8X-at-CjU" secondAttribute="centerX" id="F3z-ZX-Ffx"/>
+                            <constraint firstItem="L8X-at-CjU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="QOa-tt-L0w"/>
+                            <constraint firstItem="VDg-eI-nGH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aol-NF-Xsu"/>
+                            <constraint firstItem="VDg-eI-nGH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-270" id="fmB-h7-CeF"/>
+                            <constraint firstItem="PnR-3J-zFF" firstAttribute="centerY" secondItem="L8X-at-CjU" secondAttribute="centerY" id="qVP-0Q-aLw"/>
+                            <constraint firstItem="PnR-3J-zFF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="wCJ-u9-JZR"/>
+                            <constraint firstItem="Yiz-5w-opj" firstAttribute="centerY" secondItem="2xi-4J-1mL" secondAttribute="centerY" id="wY6-1n-uPB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="113" y="-2"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="alarm.fill" catalog="system" width="123" height="128"/>
+        <image name="message.fill" catalog="system" width="128" height="114"/>
+        <image name="phone.down.fill" catalog="system" width="128" height="53"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
