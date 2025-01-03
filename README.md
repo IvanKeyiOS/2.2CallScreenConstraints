@@ -1,22 +1,3 @@
 # 2.2CallScreenConstraints
 
-lorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem lorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-
-
 ![CallScreenConstraints](https://github.com/IvanKeyiOS/2.2CallScreenConstraints/blob/main/Screen.png)
-lorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
-lorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsemlorem ipsem
